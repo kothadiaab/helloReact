@@ -1,0 +1,20 @@
+{
+  "name": "helloReact",
+  "version": "1.0.0",
+  "description": "learning awesome react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kothadiaab/helloReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kothadiaab/helloReact/issues"
+  },
+  "homepage": "https://github.com/kothadiaab/helloReact#readme"
+}
