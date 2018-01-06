@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
-import InputPreview from '../components/InputPreview.jsx'
 import { setMessage } from '../actions/message'
+import InputPreview from '../components/InputPreview.jsx'
 
 class App extends Component {
 
@@ -18,6 +19,11 @@ class App extends Component {
           value={message}
           onChange={this._onChange}
         />
+        <Link
+          to="/about"
+        >
+          <button>About</button>
+        </Link>
       </div>
     );
   }
