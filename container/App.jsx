@@ -5,7 +5,7 @@ class App extends Component {
     return (
       <div>
         <h1>
-          Happy react learning
+          Happy react redux learning
         </h1>
       </div>
     );
